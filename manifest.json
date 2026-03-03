@@ -1,19 +1,11 @@
 {
 	"format_version": 2,
 	"header": {
-		"name": "Example Bedrock Script API Manifest.json",
-		"description": "Example description",
-		"uuid": "d3106259-a87f-4d2e-852c-e9543c958c6d",
-		"version": [
-			1,
-			0,
-			0
-		],
-		"min_engine_version": [
-			1,
-			21,
-			120
-		]
+		"name": "Example Bedrock Script API",
+		"description": "Example Description",
+		"uuid": "d3106259-a87f-4d2e-852c-e9543c958c6d", // Make sure to change uuid to your own!
+		"version": [ 1, 0, 0 ],
+		"min_engine_version": [ 1, 26, 0 ]
 	},
 	"modules": [
 		{
@@ -31,9 +23,10 @@
 	"dependencies": [	
 		{
 			"module_name": "@minecraft/server",
-			"version": "2.3.0"
+			"version": "2.4.0"
 		}
 	]
 }
+
 
 
