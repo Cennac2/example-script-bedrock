@@ -5,13 +5,13 @@
 		"description": "Example Description",
 		"uuid": "d3106259-a87f-4d2e-852c-e9543c958c6d", // Make sure to change uuid to your own!
 		"version": [ 1, 0, 0 ],
-		"min_engine_version": [ 1, 26, 0 ]
+		"min_engine_version": [ 1, 26, 20 ]
 	},
 	"modules": [
 		{
 			"language": "javascript",
 			"type": "script",
-			"uuid": "c0697c97-d7ff-4116-b148-a6d8548fc6ab",
+			"uuid": "c0697c97-d7ff-4116-b148-a6d8548fc6ab", // Make sure to change uuid to your own!
 			"version": [
 				1,
 				0,
@@ -23,7 +23,7 @@
 	"dependencies": [	
 		{
 			"module_name": "@minecraft/server",
-			"version": "2.4.0"
+			"version": "2.7.0"
 		}
 	]
 }
